@@ -1,0 +1,1 @@
+awk -F',' '$2 > 50' data.csv > awk-output-1.txt

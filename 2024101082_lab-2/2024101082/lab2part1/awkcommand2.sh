@@ -1,0 +1,1 @@
+awk -F',' '{ $1 = $1 + 10; print }' OFS=',' data.csv > awk-outuput-2.txt

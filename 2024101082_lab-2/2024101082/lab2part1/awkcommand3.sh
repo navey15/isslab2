@@ -1,0 +1,1 @@
+awk -F',' '{lines[$0]++} lines[$0] > 1' data.csv > awk-output-3.txt
